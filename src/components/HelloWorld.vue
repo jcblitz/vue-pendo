@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>About App</h2>
+    <p>This is a test application to POC a Pendo concept.</p>
     <h2>Essential Links</h2>
     <ul>
       <li>
