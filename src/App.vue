@@ -12,7 +12,7 @@ export default {
       // in your authentication promise handler or callback
     pendo.initialize({
         visitor: {
-            id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
+            id:              'STATIC-V-123'   // Required if user is logged in
             // email:        // Recommended if using Pendo Feedback, or NPS Email
             // full_name:    // Recommended if using Pendo Feedback
             // role:         // Optional
@@ -22,7 +22,7 @@ export default {
         },
 
         account: {
-            id:           'ACCOUNT-UNIQUE-ID' // Required if using Pendo Feedback
+            id:           'STATIC-A-123' // Required if using Pendo Feedback
             // name:         // Optional
             // is_paying:    // Recommended if using Pendo Feedback
             // monthly_value:// Recommended if using Pendo Feedback
