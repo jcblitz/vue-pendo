@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <h2>About App</h2>
     <p>This is a test application to POC a Pendo concept.</p>
+    <router-link to="/feature-a">Go to Bar</router-link>
     <h2>Essential Links</h2>
     <ul>
       <li>
