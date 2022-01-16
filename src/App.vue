@@ -8,16 +8,16 @@
 <script>
 export default {
   name: 'App',
-  mounted() {
-      // in your authentication promise handler or callback
+  mounted () {
     pendo.initialize({
-        visitor: {
-            id:              'STATIC-V-123'   // Required if user is logged in
-          }, account: {
-            id:           'STATIC-A-123' // Required if using Pendo Feedback
-        }
-    });
-    }
+      visitor: {
+        id: 'STATIC-V-123'
+      },
+      account: {
+        id: 'STATIC-A-123'
+      }
+    })
+  }
 }
 </script>
 
